@@ -11,5 +11,8 @@
         <module name="class03-response" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

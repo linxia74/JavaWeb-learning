@@ -17,7 +17,7 @@ import java.net.URLConnection;
  * @date 2024/9/28 14:56
  */
 @WebServlet("/res")
-public class ResponseTupeDemo extends HttpServlet {
+public class ResponseTypeDemo extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String type = req.getParameter("type");
