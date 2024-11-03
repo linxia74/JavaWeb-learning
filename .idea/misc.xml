@@ -10,10 +10,12 @@
         <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/class04-cookie-session/pom.xml" />
         <option value="$PROJECT_DIR$/book-online/pom.xml" />
+        <option value="$PROJECT_DIR$/book_online/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/book-online/pom.xml" />
         <option value="$PROJECT_DIR$/demo/pom.xml" />
       </set>
     </option>
