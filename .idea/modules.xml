@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/class05-ajax-axions/class05-ajax-axions.iml" filepath="$PROJECT_DIR$/class05-ajax-axions/class05-ajax-axions.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-learning.iml" filepath="$PROJECT_DIR$/java-learning.iml" />
-      <module fileurl="file://$PROJECT_DIR$/untitled/shuju.iml" filepath="$PROJECT_DIR$/untitled/shuju.iml" />
     </modules>
   </component>
 </project>
