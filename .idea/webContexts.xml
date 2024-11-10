@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/book-online/src/main/webapp/WEB-INF/top.jsp" value="file://$PROJECT_DIR$/book-online/src/main/webapp/WEB-INF" />
+        <entry key="file://$PROJECT_DIR$/book-online/src/main/webapp/book-detail.jsp" value="file://$PROJECT_DIR$/book-online/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/book-online/src/main/webapp/index.jsp" value="file://$PROJECT_DIR$/book-online/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/book_online/src/main/webapp/book_detail.jsp" value="file://$PROJECT_DIR$/book_online/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/book_online/src/main/webapp/login.html" value="file://$PROJECT_DIR$/book_online/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/class05/src/main/webapp/regiater.html" value="file://$PROJECT_DIR$/class05/src/main/webapp" />
+      </map>
+    </option>
+  </component>
+</project>
