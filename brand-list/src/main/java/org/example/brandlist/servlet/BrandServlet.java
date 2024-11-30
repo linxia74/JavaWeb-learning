@@ -1,6 +1,8 @@
 package org.example.brandlist.servlet;
 
-import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson2.JSON;
+import jakarta.servlet.Servlet;
+import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -12,7 +14,7 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * @author 23164
+ * @author 11448
  * @description: TODO
  * @date 2024/11/9 16:13
  */
@@ -26,11 +28,19 @@ public class BrandServlet extends HttpServlet {
     }
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        List<Brand> brandList = getBrandList();
+
         resp.setContentType("application/json;charset=utf-8");
+        ServletContext servletContext = req.getServletContext();
+        Object brands = servletContext.getAttribute("brands");
+
+         List<Brand> brandList = null;
+         if (brands instanceof List){
+             brandList = (List<Brand>) brands;
+         }
+         brandList = brandList == null ? getBrandList() : brandList;
+         servletContext.setAttribute("brands", brandList);
         req.getServletContext().setAttribute("brands", brandList);
         String jsonString = JSON.toJSONString(brandList);
         resp.getWriter().write(jsonString);
     }
 }
-
